@@ -2,6 +2,7 @@
   "name": "vitepresssample",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,11 +22,11 @@
   },
   "homepage": "https://github.com/alkanoic/VitePressSample#readme",
   "devDependencies": {
-    "@types/node": "^18.15.11",
+    "@types/node": "^20.8.9",
     "flexsearch": "^0.7.31",
-    "markdown-it": "^13.0.1",
+    "markdown-it": "^13.0.2",
     "markdown-it-plantuml": "^1.4.1",
-    "vitepress": "^1.0.0-alpha.64",
-    "vitepress-plugin-search": "^1.0.4-alpha.19"
+    "vitepress": "^1.0.0-rc.24",
+    "vitepress-plugin-search": "^1.0.4-alpha.20"
   }
 }
