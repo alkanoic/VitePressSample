@@ -17,7 +17,9 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     config: (md) => {
-      md.use(markdownItPlantuml);
+      md.use(markdownItPlantuml, {
+        server: 'http://localhost:8081',
+      });
     },
   },
   themeConfig: {
