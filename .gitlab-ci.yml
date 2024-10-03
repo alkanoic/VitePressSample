@@ -16,7 +16,7 @@ build:
     paths:
       - .vitepress/dist
 
-deploy:
+pages:
   stage: deploy
   script:
     - mv .vitepress/dist public
