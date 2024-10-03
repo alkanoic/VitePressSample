@@ -10,16 +10,16 @@ variables:
 build:
   stage: build
   script:
-    - npm install
+    - npm ci
     - npm run docs:build
   artifacts:
     paths:
-      - docs/.vitepress/dist
+      - .vitepress/dist
 
 deploy:
   stage: deploy
   script:
-    - mv docs/.vitepress/dist public
+    - mv .vitepress/dist public
   artifacts:
     paths:
       - public
