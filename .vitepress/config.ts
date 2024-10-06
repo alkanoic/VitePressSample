@@ -9,6 +9,7 @@ var options = {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: './',
   title: 'VitePress Sample',
   description: 'VitePress Sample Description',
   cleanUrls: true,
